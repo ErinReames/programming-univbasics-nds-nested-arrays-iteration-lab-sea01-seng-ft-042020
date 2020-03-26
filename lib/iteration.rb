@@ -48,16 +48,8 @@ return array
 end
 
 def total_even_pairs(src)
-   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]		   total = 0
-   counter = 0
-   while counter < src.length
-     if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0
-     total = total + (src[counter].sum)
-     counter +=1
-   else
-     counter +=1
-   end
+  
  end
-   total 
+
   
 
