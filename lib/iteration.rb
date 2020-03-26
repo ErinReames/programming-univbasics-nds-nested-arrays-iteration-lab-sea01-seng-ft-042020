@@ -51,15 +51,15 @@ def total_even_pairs(src)
    # src will be an array of [ [number1, number2], ... [numberN, numberM] ]		   total = 0
    total = 0 
    counter = 0
-   while counter < src.length
-     if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0
+   while counter < src.length #while the counter is less than the src length
+     if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0 #if the counter 
      total = total + (src[counter].sum)
-     counter +=1
+     counter +=1 #increase counter by 1 
    else
-     counter +=1
-   end
-end
+     counter +=1 #increase counter by 1 
+   end #ends if/else statement
+end #ends while loop
 total
-end
+end #ends method
 
 
