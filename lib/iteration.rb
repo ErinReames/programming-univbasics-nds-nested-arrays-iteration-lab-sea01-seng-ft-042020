@@ -57,6 +57,6 @@ def total_even_pairs(src)
    else
      counter +=1
 end
-
+end
   
 
