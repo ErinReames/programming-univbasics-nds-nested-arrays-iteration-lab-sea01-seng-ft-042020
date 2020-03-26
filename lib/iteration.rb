@@ -66,6 +66,8 @@ def total_even_pairs(src)
     
     total = total += (src [counter].sum)
     counter += 1 
+    
+  else counter += 1 
   end
   total
 end
