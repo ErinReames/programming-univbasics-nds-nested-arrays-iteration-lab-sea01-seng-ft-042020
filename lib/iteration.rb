@@ -60,4 +60,7 @@ def total_even_pairs(src)
   
   counter = 0 
   
+  while counter < src.length 
+  
+  
 end
