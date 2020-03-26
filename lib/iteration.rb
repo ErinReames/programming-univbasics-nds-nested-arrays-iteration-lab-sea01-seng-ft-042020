@@ -52,8 +52,8 @@ def total_even_pairs(src)
    total = 0 
    counter = 0
    while counter < src.length #while the counter is less than the src length
-     if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0 #if the counter 
-     total = total + (src[counter].sum)
+     if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0 #if the counter has an even number
+     total = total + (src[counter].sum) #total increases by the new sum
      counter +=1 #increase counter by 1 
    else
      counter +=1 #increase counter by 1 
